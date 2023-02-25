@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abc Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-Fluid">
+        <div class="container">
+            <div class="image">
+                <img src="abc_comp.png">
+            </div>
+            <div class="search_bar">
+                <input class="search" placeholder="  Scan a Bin">
+            </div>
+            <div class="box">
+                <div class="section1">
+                    <h1>Sec A</h1>
+                    <h3>Details 1</h3>
+                    <i class='fas'>&#xf061;</i>
+                </div>
+                <div class="section1">
+                    <h1>Sec B</h1>
+                    <h3>Details 2</h3>
+                </div>
+            </div>
+            <div class="table_div">
+                <div class="table_detail">
+                    <table class="center1">                       
+                        <tr>
+                            <input type ="hidden" class="id" id="id" value="Item ID:">
+                            <input type ="hidden" class="price" id="price" value="21001">
+                            <input type ="hidden" class="name" id="name" value="Item Name:">
+                            <input type ="hidden" class="Trans" id="Trans" value="Trans Ref#:">
+                            <input type ="hidden" class="ref" id="ref" value="872">
+                            <input type ="hidden" class="serial" id="serial" value="Serial Number:">
+                            <input type ="hidden" class="number" id="number" value="20200925081">
+                            <input type ="hidden" class="Details" id="Details" value="Details of item">
+                            <td id="id">Item ID:</td>
+                            <td id="price">21001</td>
+                        </tr>
+                        <tr>
+                            <td id="name"> Item Name:</td>
+                            <td id="Details"> Details of item</td>
+                        </tr>
+                        <tr>
+                            <td id="Trans">Trans Ref#:</td>
+                            <td id="ref">872</td>
+                        </tr>
+                        <tr>
+                            <td id="serial">Serial Number:</td>
+                            <td id="number">20200925081</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table_detail">
+                    <input type ="hidden" class="status" id="status" value="Connect Status: ...">
+                            <input type ="hidden" class="date" id="date" value="On Date/Time:">
+                            <input type ="hidden" class="det" id="det" value="Another Detail:">
+                            <input type ="hidden" class="Duration" id="Duration" value="Duration:">
+                            <input type ="hidden" class="dnum" id="dnum" value="00:00:00">
+                    <table class="center2">       
+                        <tr>
+                            <th colspan="2">Connect Status: ...</th>
+                        </tr>
+                        <tr>
+                            <td> On Date/Time:</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>Another Detail:</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Duration:</td>
+                            <td>00:00:00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>    
+            <div class="button">
+                <button class="btn1">Line 7: Machine 7<i class="arrow down"></i></button>
+                <button class="btn2">Connect</button>
+            </div>
+        </div>
+        <div class="container tablecont">
+            <table>
+                <tr>
+                    <thead>
+                        <th>Scan Code</th>
+                        <th>Weights(kgs)</th>
+                    </thead>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr>
+                        <td>01014232000110202007100014</td>
+                        <td>22.650</td>
+                    </tr>
+                    <tr class="total">
+                        <td>Total</td>
+                        <td>242.385</td>  
+                        
+                    </tr>
+                </tbody>    
+            </table>
+        </div>
+    </div>
+    <button onclick="call()" name="call">Click me</button>
+    <div id="text"></div>    
+    <script src="script.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</body>
+</html>
